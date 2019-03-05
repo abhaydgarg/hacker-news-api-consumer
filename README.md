@@ -2,6 +2,8 @@
 
 Hacker news [API](https://github.com/HackerNews/API) consumer.
 
+[![NPM](https://nodei.co/npm/hacker-news-api-consumer.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/hacker-news-api-consumer/)
+
 ## Consume endpoints
 
 * item
