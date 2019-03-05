@@ -16,7 +16,7 @@ const API = axios.create({
  * https://github.com/HackerNews/API#items
  *
  * @async
- * @param {string} id
+ * @param {number} id
  * @return {Promise<object>}
  */
 module.exports.item = async (id) => {

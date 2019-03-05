@@ -26,17 +26,17 @@ npm install --save hacker-news-api-consumer
 const { item, topstories } = require('hacker-news-api-consumer');
 
 // Get item
-item('121003').then(data => {
-  // ...data
+item(121003).then(response => {
+  // ...response object
 }).catch(error => {
-  // ...error
+  // ...error object
 });
 
 // Get top stories
-topstories().then(data => {
-  // ...data
+topstories().then(response => {
+  // ...response object
 }).catch(error => {
-  // ...error
+  // ...error object
 });
 ```
 
@@ -44,7 +44,7 @@ topstories().then(data => {
 
 > Every method returns promise.
 
-* Item - `item(<id:string>)`
+* Item - `item(<id:number>)`
 * User - `user(<id:string>)`
 * Max item - `maxitem()`
 * Top stories - `topstories()`
@@ -54,7 +54,7 @@ topstories().then(data => {
 * Show stories - `showstories()`
 * Job stories - `jobstories()`
 
-## Data schema
+## Response schema
 
 ```javascript
 {
