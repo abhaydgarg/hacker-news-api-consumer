@@ -1,0 +1,36 @@
+{
+  "name": "hacker-news-api-consumer",
+  "description": "Hacker news API consumer.",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "nodemon --config nodemon.json index.js",
+    "debug": "nodemon --config nodemon.json --inspect index.js",
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "dependencies": {
+    "@abhaydgarg/is": "^1.1.0",
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nock": "^10.0.6",
+    "semistandard": "^13.0.1"
+  },
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhaydgarg/hacker-news-api-consumer.git"
+  },
+  "keywords": [
+    "hacker",
+    "news",
+    "api",
+    "consumer"
+  ],
+  "author": "Abhay Garg",
+  "license": "MIT",
+  "homepage": "https://github.com/abhaydgarg/hacker-news-api-consumer/blob/master/README.md"
+}
